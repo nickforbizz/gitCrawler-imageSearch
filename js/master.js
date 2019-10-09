@@ -127,14 +127,13 @@ window.addEventListener('load', function() {
 				 // console.log(m)
 				 img1.src = m.largeImageURL;
 				 img2.src = m.userImageURL;
-				 img1.setAttribute('height',200);
-				 img1.setAttribute('class',"imgcap");
-				 img1.setAttribute('width',350);
+				 img1.setAttribute('class',"imgcap img-fluid");
+				 img1.setAttribute('style', "height:14rem; width:24rem");
 
 				 img2.setAttribute('height',80);
 				 img2.setAttribute('width',80);
 				 
-				 div.setAttribute('style', "height:350px;  float:left; box-shadow: 2px 2px 6px grey; padding: 10px; margin:5px 15px; position:relative; overflow:hidden");
+				 div.setAttribute('style', "min-height:350px;  float:left; box-shadow: 2px 2px 6px grey; padding: 10px; margin:5px 15px; position:relative;");
 				 h4.innerHTML = "Tags : "+(m.tags).substr(1,25);
 				 span2.innerHTML = "BY: "+(m.user).substr(1,25);
 				 span2.setAttribute('class', "p-4")
