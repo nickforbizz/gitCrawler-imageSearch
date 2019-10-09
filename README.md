@@ -11,6 +11,7 @@ There is also a display of github details and the respective followers
 
 
 ******** USAGE
+
 user is prompted with github username
     -this fetches ones github profile
     -under profile one can search github profile by typing the name
